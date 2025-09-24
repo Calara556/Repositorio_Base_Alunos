@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Filmes da Clara</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fundo preto profundo e fonte branca */
+        body {
+            background-color: #141414;
+            color: #fff;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            padding: 40px 60px;
+            line-height: 1.5;
+        }
+
+        /* Títulos de categoria (h1) estilo Netflix */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #6e0409;
+            /* vermelho Netflix */
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-left: 6px solid #99070e;
+            padding-left: 12px;
+            letter-spacing: 2px;
+        }
+
+        /* Filmes (h2) */
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #ffffffdd;
+            /* branco com leve transparência */
+            margin-bottom: 12px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover nos filmes para dar destaque */
+        h2:hover {
+            color: #70070d;
+            text-decoration: underline;
+        }
+
+        /* Espaçamento entre categorias */
+        h1+h2 {
+            margin-top: 12px;
+        }
+
+        /* Para responsividade básica */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                padding-left: 8px;
+                border-left-width: 4px;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>drama</h1>
+    <div class="movie-row">
+        <div class="movie-card">
+            <img style="width: 200px;" src="https://th.bing.com/th/id/R.911a417d177bf509eec09a14c5bb9ee5?rik=Opr6k6LQPfCGCA&riu=http%3a%2f%2fwww.impawards.com%2fintl%2fbrazil%2f2024%2fposters%2fainda_estou_aqui_ver2_xlg.jpg&ehk=%2f1eOUByjhMB%2fJ1pq4SBSz9yykornwoQsqZH7JAFm6jE%3d&risl=&pid=ImgRaw&r=0" alt="Ainda Estou Aqui">
+            <h2>Ainda Estou Aqui</h2>
+        </div>
+        <div class="movie-card">
+            <img style="width: 200px;" src="https://tse4.mm.bing.net/th/id/OIP.RBNAxZ46QRvpHUWv3miacAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="O Poderoso Chefão">
+            <h2>O Poderoso Chefão</h2>
+        </div>
+        <div class="movie-card">
+            <img style="width: 200px;" src="https://tse3.mm.bing.net/th/id/OIP.oG7tRoU-xBeWowgpLG83zAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ela">
+            <h2>Ela</h2>
+        </div>
+    </div>
+    <h2>Ela</h2>
+    <h1>comédia</h1>
+    <h2>Tempos Modernos</h2>
+    <h2>American Pie</h2>
+    <h2>Dr. Dolittle</h2>
+    <h1>policial</h1>
+    <h2>O Exterminador do Futuro</h2>
+    <h2>O Procurado</h2>
+    <h2>Velozes e Furiosos</h2>
+    <h1>guerra</h1>
+    <h2>Rambo</h2>
+    <h2>1917</h2>
+    <h2>Até o Último Homem</h2>
+</body>
+
+</html>
